@@ -8,6 +8,7 @@ color : #666666;
 font-family : "Lato", sans-serif;
 font-size : 14px;
 letter-spacing : 1px;
+text-align: justify;
 }
 body h1, h2, h3, h4, h5, h6 {
 color : #141414;
@@ -195,6 +196,7 @@ padding : 0 0 25px 0;
 text-align : center;
 }
 .title_sec h2 {
+text-align: justify;
 color : #606060;
 font-size : 12px;
 text-transform : uppercase;
@@ -301,10 +303,10 @@ transform : translateX(100%);
 .hover_effect_btn a:hover::before, .hover_effect_btn a:focus::before {
 transform : translateX(0%);
 }
-#protfolio_sec ul.filter {
+.protfolio_sec ul.filter {
 color : #2e2e2e;
 }
-#protfolio_sec ul.filter li {
+.protfolio_sec ul.filter li {
 color : #666666;
 cursor : pointer;
 display : inline-block;
@@ -314,22 +316,22 @@ margin-right : 5px;
 padding : 15px 35px;
 position : relative;
 }
-#protfolio_sec ul.filter li:hover {
+.protfolio_sec ul.filter li:hover {
 color : #36BFF3;
 }
-#protfolio_sec ul.filter li.active {
+.protfolio_sec ul.filter li.active {
 border-bottom : 1px solid #00AFF0;
 }
-#protfolio_sec .all-portfolios {
+.protfolio_sec .all-portfolios {
 margin-top : 20px;
 margin-left : -10px;
 }
-#protfolio_sec .single-portfolio {
+.protfolio_sec .single-portfolio {
 float : left;
 margin-bottom : 10px;
 width : 277px;
 }
-#protfolio_sec .single-portfolio:hover .img_hoverlay {
+.protfolio_sec .single-portfolio:hover .img_hoverlay {
 display : block;
 }
 #message {
@@ -477,7 +479,7 @@ font-size : 50px;
 position : relative;
 top : -50px;
 }
-#protfolio_sec {
+.protfolio_sec {
 background : none 0 0 repeat scroll #f0f0f0;
 padding : 70px 0;
 }
